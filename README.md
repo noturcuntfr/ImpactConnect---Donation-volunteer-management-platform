@@ -59,6 +59,6 @@ Google Maps integration for live pickup tracking
 External MySQL (Aiven) for Render deployment
 Mobile responsive redesign
 
-👨‍💻 AuthorDia - 
-Full Stack Developer
+👨‍💻 Author
+Dia - Full Stack Developer
 Built with ❤️ for social impact.
