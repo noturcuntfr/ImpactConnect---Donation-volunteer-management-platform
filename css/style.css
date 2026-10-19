@@ -1,0 +1,104 @@
+body{
+    font-family:Arial; 
+    margin:0; 
+    background:#f6f6f6
+}
+nav{
+    background:black; 
+    color:white; 
+    padding:15px 30px; 
+    display:flex; 
+    justify-content:space-between; 
+    align-items:center
+}
+nav a{
+    color:white; 
+    margin-left:20px; 
+    text-decoration:none
+}
+.container{
+    padding:30px
+}
+.card{
+    background:white; 
+    padding:20px; 
+    border-radius:12px; 
+    margin-bottom:20px; 
+    box-shadow:0 2px 8px rgba(0,0,0,0.05)
+}
+input, textarea, select{
+    width:100%; 
+    padding:10px; 
+    margin:8px 0; 
+    border-radius:8px; 
+    border:1px solid #ccc
+}
+button{
+    background:#111; 
+    color:white; 
+    padding:5px 20px; 
+    border:none; 
+    border-radius:8px; 
+    cursor:pointer
+}
+.hero{
+    font-size:40px; 
+    font-weight:bold
+}
+
+.hero-title{
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 0.9;
+  color: #111;
+}
+.impact-word{
+  font-family: 'Pinyon Script', cursive;
+  font-weight: 400;
+  font-size: 110px; /* make it ROYAL big */
+  margin-left: 10px;
+  color: #111;
+  display: inline-block;
+  transform: translateY(18px) rotate(-3deg); /* that stylish tilt */
+}
+.sub-line{
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  /* PICK ONE COLOR YOU LIKE - NOT GREY: */
+  color: #111; /* Option 1: Full Black - Premium */
+  /* color: #0A4D3C; /* Option 2: Royal Emerald - Trust + Money */
+  /* color: #5B1A2A; /* Option 3: Royal Burgundy - NGO / Impact */
+}
+.impact-card-wrap{
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.impact-tilt-card{
+  width: 320px; /* medium size - bada nahi lagega */
+  background: #fff;
+  border-radius: 18px;
+  padding: 8px;
+  transform: rotate(-4deg); /* thoda sa tilt */
+  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.impact-tilt-card img{
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Hover pe seedha ho jayega - cool effect */
+.impact-tilt-card:hover{
+  transform: rotate(0deg) scale(1.03);
+  box-shadow: 0 22px 50px rgba(0,0,0,0.18);
+}   
